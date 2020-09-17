@@ -1,11 +1,14 @@
 import random
-import os
 
-class Lotto:
-    def __init__(self):
-        pass
+START = 1
+END = 10
 
+print("Welcome to the Number Game")
+ans = random.randint(START, END)
+cust = int(input("Guess the Number >> "))
+if ans == cust:
+    print("Correct")
+else:
+    print("Wrong")
 
-def draw():
-    pass
-
+    

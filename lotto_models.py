@@ -62,4 +62,25 @@ def Manual():
 def Rank_info(cust, winner, winner_bonus):
     if cust == winner:
         return 1
-    elif 
+    else:
+        pass
+
+
+import random
+import datetime
+import time
+
+# 구현 기능 : 자동, 수동 구매시 몇번 만에 당첨이 될까?
+
+class Draw:
+    def client(self):
+        pass
+
+    def winner(self):
+        pass
+
+def getClientNum():
+    pass
+
+def rank():
+    pass
