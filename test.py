@@ -1,14 +1,9 @@
-import random
+def add(n):
+    i=0
+    sum=0
+    while i<=n:
+        sum+=i
+        i+=1
+    print(sum)
 
-START = 1
-END = 10
-
-print("Welcome to the Number Game")
-ans = random.randint(START, END)
-cust = int(input("Guess the Number >> "))
-if ans == cust:
-    print("Correct")
-else:
-    print("Wrong")
-
-    
+add(int(input()))
